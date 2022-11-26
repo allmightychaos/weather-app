@@ -13,7 +13,7 @@ document.addEventListener('keyup', function (event) {
 })
 
 search.addEventListener('click', () => {
-    const APIKey = 'f0c52c6cf5da28ce2f10041af1479cd7';
+    const APIKey = 'enter-your-api-key'; // https://home.openweathermap.org/api_keys
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
