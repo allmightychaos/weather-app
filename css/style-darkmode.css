@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(-45deg, #094265, #06283D);
+}
+
+.container {
+    background: rgb(40, 40, 40);
+    box-shadow:  0 5px 10px 0px rgba(0, 0, 0, 0.4);
+    color: #35a4ea;
+}
+
+input {
+    background: rgb(40, 40, 40);
+}
+
+.search-box input, .search-box input::placeholder, .search-box button, #locationdot {
+    color: lightblue;
+}
+
+.weather-details span, .weather-details p {
+    color: lightblue;
+}
+
+.weather-details i {
+    color: #35a4ea;
+} 
+
+.weather-box .temperature {
+    color: #72bcd4;
+}
+
+.weather-box .description {
+    color: lightblue;
+}
+
+.not-found p {
+    color: lightblue;
+}
+
+/* search icon */
+
+.search-box button {
+    background: #add8e6;
+    color: #1690dc;
+}
